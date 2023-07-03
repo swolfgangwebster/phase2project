@@ -1,3 +1,25 @@
+# App description
+
+Website connects to a onrender.com server to get a list of languages with their family and number of L1 speakers. 
+useEffect fetches the data when the site is intially loaded and the user can add a new language to the list which will POST the new data.
+User can also select from the list of language families to get a list of all included languages belong to that family
+
+<App />
+contains routing and navbar
+uses GET to get data
+<NavBar />
+lets the user go to other tabs without leaving index.html
+<Home />
+is the home page with a list of all languages included
+<LangForm />
+allows the user to input the information for a new language and submit it.
+POST request
+<Family />
+contains a selection input to choose the languages to be displayed based on the input
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
